@@ -1,0 +1,198 @@
+.main_background {
+    background-color: #e4e4e4;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.ontop {
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	position: absolute;				
+	background: rgba(30, 30, 30, 0.4);
+	color: #aaaaaa;
+}
+#order-box {
+	color: #000000;
+	background-color: white;
+	position: relative;
+	margin: auto;
+	width:75%;
+	top: 25%;
+}
+
+/* unvisited link */
+a:link {  
+text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+text-decoration: none;
+}
+
+/* selected link */
+a:active {
+text-decoration: none;
+} 
+
+.avatar {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.logo_size {
+    display: block;
+    margin: auto;
+}
+
+/* ----------------- */
+
+/* HEADER */
+.header {
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+/* ----------------- */
+
+/* HOVER IMAGE */
+
+.container_image {
+    position: relative;
+}
+  
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    color: red;
+}
+  
+.container_image:hover .image {
+    opacity: 0.3;
+}
+  
+.container_image:hover .middle {
+    opacity: 1;
+}
+
+.none {
+    height: auto;
+}
+
+
+
+/* --------------------*/
+
+/*========== Mobile First Method ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*========== Non-Mobile First Method ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.ontop {
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	position: absolute;				
+	background: rgba(30, 30, 30, 0.4);
+	color: #aaaaaa;
+}
+#order-box {
+	color: #000000;
+	background-color: white;
+	position: relative;
+	margin: auto;
+	width:75%;
+	top: 25%;
+}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.ontop {
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	position: absolute;				
+	background: rgba(30, 30, 30, 0.4);
+	color: #aaaaaa;
+}
+#order-box {
+	color: #000000;
+	background-color: white;
+	position: relative;
+	margin: auto;
+	width:100%;
+	height: auto;
+	top: 0%;
+}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+			
+
+}
